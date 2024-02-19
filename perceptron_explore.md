@@ -7,6 +7,7 @@
 4. Visualizing the data:
     When visualizing data, especially with less than 10 variables, plotting all combinations of two variables helps identify useful features for separation and      detect correlations, with tools like seaborn's "pair plot" providing easy visualization, although large datasets may require subsampling or other methods        to manage data size and processing demands.
 5. Key Learnings and Next Steps:
+   
     a. Strong Correlation: Body mass and flipper length exhibit a high correlation.
    
     b. Variable Selection: For the initial focus, body mass and bill depth are chosen as input variables due to their distinct correlation patterns and the ease     of visualization in 2D.
@@ -19,3 +20,17 @@
    
     f. Accuracy vs. Understandability: While using all variables could increase accuracy, the initial focus is on understandability and clear visualization,         hence the choice of only two variables.
    
+6. recording the target variable
+7. shuffle the data
+8. standardization
+9. recording the target variable for the seconf time
+10. build a perceptron model
+11. augment the data(bias absorbing)
+12. creating activation function
+13. forward pass(predicting)
+14. applying the initial model
+15. perceptrn weight update
+16. accurecy metric
+17. training
+18. preprocessing
+19. define the perceptron as a python class
